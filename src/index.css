@@ -1,0 +1,28 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.header {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 100vw;
+  height: 100px;
+  background-color: red;
+  font-size: 1.5rem;
+  font-weight: 600;
+  display: flex;
+  gap: 20px;
+  justify-content: end;
+  padding: 0 100px;
+  align-items: center;
+  
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+}
+
+.active {
+  text-decoration: underline;
+}
